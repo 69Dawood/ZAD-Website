@@ -11,7 +11,7 @@ export default function ContactPage() {
     <div className="bg-white min-h-screen pt-24">
       {/* Top Banner */}
       <section className="bg-gradient-to-r from-teal-400/20 to-cyan-300/20 py-20 px-4 text-center">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900">
+        <h1 className="text-5xl font-extrabold text-gray-900">
           Contact Us
         </h1>
         <div className="w-20 h-1 bg-teal-500 mx-auto mt-4 rounded-full"></div>
