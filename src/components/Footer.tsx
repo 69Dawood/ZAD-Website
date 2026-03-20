@@ -27,7 +27,7 @@ const Footer = () => {
             <h4 className="text-lg font-bold text-white mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li className="group"><Link href="/" className="inline-block hover:text-teal-400 hover:translate-x-1 transition-all duration-300">Home</Link></li>
-              <li className="group"><Link href="/about" className="inline-block hover:text-teal-400 hover:translate-x-1 transition-all duration-300">About Us</Link></li>
+              <li className="group"><span className="inline-block hover:text-teal-400 hover:translate-x-1 transition-all duration-300 cursor-default">About Us</span></li>
               <li className="group"><Link href="/contact" className="inline-block hover:text-teal-400 hover:translate-x-1 transition-all duration-300">Contact Us</Link></li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold text-white mb-6">Contact Info</h4>
             <ul className="space-y-2 mb-6 text-gray-400">
-              <li>Email: info@zad-marketing.com</li>
+              <li>Email: infyzad@gmail.com</li>
               <li>Phone: +92 3112858678</li>
               <li>Location: Islamabad, Pakistan</li>
             </ul>

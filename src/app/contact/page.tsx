@@ -32,8 +32,8 @@ export default function ContactPage() {
 
             <div className="mt-8 p-6 bg-teal-50 rounded-2xl border border-teal-100 shadow-sm inline-block">
               <p className="text-gray-500 font-semibold mb-1 uppercase tracking-wider text-sm">Direct Email</p>
-              <a href="mailto:info@zad-marketing.com" className="text-2xl font-bold text-[#00bcd4] hover:text-teal-600 transition-colors">
-                info@zad-marketing.com
+              <a href="mailto:infyzad@gmail.com" className="text-2xl font-bold text-[#00bcd4] hover:text-teal-600 transition-colors">
+                infyzad@gmail.com
               </a>
             </div>
           </div>
