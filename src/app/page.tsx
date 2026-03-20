@@ -272,7 +272,7 @@ const RevolutionSection = () => {
           {/* Right Column: Image */}
           <div className="relative w-full aspect-square md:aspect-[4/3] lg:aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-gray-50 group">
             <Image 
-              src="/image2.jpg" 
+              src="/image2new.jpg" 
               alt="Digital Advertising Revolution"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700"
