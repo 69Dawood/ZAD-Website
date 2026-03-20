@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ChevronDown, Phone, Mail } from 'lucide-react';
 
 const Navbar = () => {
@@ -11,6 +12,9 @@ const Navbar = () => {
           <div className="text-gray-900 font-extrabold text-2xl tracking-tight transition-all duration-300 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-teal-500 group-hover:to-cyan-400">
             ZAD
             <span className="text-teal-500 inline-block group-hover:-translate-y-1 transition-transform duration-300">.</span>
+          </div>
+          <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-teal-400 shadow-sm flex-shrink-0">
+            <Image src="/zadlogo.png" alt="ZAD Logo" width={36} height={36} className="object-cover w-full h-full" />
           </div>
         </Link>
 

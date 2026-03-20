@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -13,9 +14,14 @@ const Footer = () => {
           
           {/* Column 1: Brand & Description */}
           <div>
-            <div className="text-3xl font-extrabold text-white mb-6 group cursor-pointer inline-block">
-              <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-teal-400 group-hover:to-cyan-400 transition-all duration-300">ZAD</span>
-              <span className="text-[#00bcd4] inline-block group-hover:-translate-y-1 transition-transform duration-300">.</span>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="text-3xl font-extrabold text-white group cursor-pointer inline-block">
+                <span className="group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-teal-400 group-hover:to-cyan-400 transition-all duration-300">ZAD</span>
+                <span className="text-[#00bcd4] inline-block group-hover:-translate-y-1 transition-transform duration-300">.</span>
+              </div>
+              <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-teal-400 shadow-md flex-shrink-0">
+                <Image src="/zadlogo.png" alt="ZAD Logo" width={40} height={40} className="object-cover w-full h-full" />
+              </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               We are a data-driven digital marketing agency specializing in high-converting Meta and Google ads designed to aggressively scale your revenue.
